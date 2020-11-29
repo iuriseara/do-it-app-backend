@@ -5,6 +5,8 @@ class CreateTasks < ActiveRecord::Migration[6.0]
       t.string :description
       t.string :start_time
       t.string :end_time
+      t.string :start_date
+      t.string :end_date
       t.boolean :complete
       t.integer :category_id
       t.integer :user_id
